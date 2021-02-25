@@ -37,8 +37,6 @@ All the content entered into the form fields should update a section of the page
 * Place all your JavaScript in a file called `app.js`, which should go in a folder called `js`.
 * Should you choose to use images, create a folder called `img` and place it in the root of this repo. **Limit images to 1MB or smaller.**
 * Do not remove the `.gitignore` file.
-* The only files you may add are images, which, if included, must go in the `img` folder. **Ensure each image is under 1MB or smaller**.
-* Leave the inclusion of `reset.css` in the `head` of `index.html` alone.
 
 ---
 
