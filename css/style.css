@@ -1,0 +1,23 @@
+#form {
+    left: 50%;
+    top: 40%;
+    margin-left: -40%;
+    position: absolute;
+    margin-top: -10%;
+}
+:root{
+    --basic-char-width: 30px;
+}
+input{
+    text-align:center;
+    border: 1px;
+}
+input:invalid{
+    outline: 1px solid red;
+}
+input:valid{
+    outline: 1px solid green;
+}
+header{
+    text-align: center;
+}
