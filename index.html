@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+<header>
+    <h1>Welcome</h1>
+</header>
+<main>
+    <form id="form" onsubmit="calculate(); return false">
+        <fieldset>
+            <legend>Please fill out this form</legend>
+        <p><label for="first-name">Please enter your first name: </label><input
+                id="first-name"
+                name="first-name"
+                type="text" placeholder="Tom" required ></p>
+        <p><label for="last-name">Please enter your last name: </label><input
+                id="last-name"
+                name="last-name"
+                type="text" placeholder="Holland" required></p>
+        <p><label>Enter Your Address </label></p>
+        <p><label for="number">Number:</label><input id="number" size="5" type="text" placeholder="10" required>
+            <label for="street">Street:</label><input id="street" type="text" placeholder="Cleveland st" required>
+            <label for="city">City:</label><input id="city" type="text" placeholder="Bay Shore" required>
+        <label for="state">State:</label>
+        <input required id="state" name="state" size="5">
+            <label for="zip-code">Zip code:<input id="zip-code" size="5" type="text" placeholder="11111" required></p>
+         <p><label for="salary">Enter your desire salary: <input id="salary" type="text"></p>
+        <p>Willing to relocate?</p>
+            <p><label><input class="check-box" id="Check1" type="checkbox" name="relocate" value="Locally" onclick="check(this.id)">Locally</label></p>
+            <p><label><input class="check-box" id="Check2" type="checkbox" name="relocate" value="Internationally" onclick="check(this.id)">Internationally</label></p>
+            <p><label for="date">Available Date</label><input id="date" type="text" placeholder="10/04/2020"></p>
+        <p>Enter your phone number: <label for="area-code"><input id="area-code" size="5" name="area-code" maxlength="3" type="text" autofocus pattern="[0-9]{3}" placeholder="123" required>
+            -<input id="phone" name="number" size="7" maxlength="7" type="number" pattern="[0-9]{7}" placeholder="12344567" required></p>
+        <p><input type="submit" value="Submit">
+        <p><input type="button" onclick="clear()" value="Clear"></p>
+    </fieldset>
+        </form>
+<hr>
+
+</main>
+</body>
+</html>
